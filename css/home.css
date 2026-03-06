@@ -156,23 +156,33 @@ header.scrolled .nav-links a:hover {
 }
 
 #hero {
-    background-color: var(--bg-card);
-    width: 100%;
-    padding: 60px 8%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--navy) 0%, #1e3a6e 40%, #2563EB 100%);
     display: flex;
+    align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    margin: 0;
+    padding: 100px 5% 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-dots {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
 }
 
 .hero-inner {
     max-width: 1200px;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
     align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    text-align: left;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content {
