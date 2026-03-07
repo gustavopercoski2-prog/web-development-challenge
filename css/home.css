@@ -520,3 +520,12 @@ header.scrolled .nav-links a:hover {
     color: var(--muted);
     line-height: 1.75;
 }
+
+/* Display grid */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
