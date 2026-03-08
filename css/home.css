@@ -529,3 +529,33 @@ header.scrolled .nav-links a:hover {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.game-card-new {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 36px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+}
+
+.game-card-new:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--card-hover);
+    border-color: transparent;
+}
+
+.game-card-new::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: 24px 24px 0 0;
+}
