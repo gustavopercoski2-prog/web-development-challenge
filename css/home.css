@@ -673,3 +673,27 @@ header.scrolled .nav-links a:hover {
     gap: 80px;
     align-items: center;
 }
+
+.about-content .section-tag {
+    justify-content: flex-start;
+}
+
+.about-content h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(2rem, 3vw, 2.6rem);
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.05rem;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.about-content p:last-of-type {
+    margin-bottom: 36px;
+}
