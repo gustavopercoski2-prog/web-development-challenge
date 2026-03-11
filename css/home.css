@@ -838,10 +838,20 @@ header.scrolled .nav-links a:hover {
     overflow: hidden;
 }
 
+#feedback-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+}
+
 .cta-inner {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
+    position: relative; 
+    z-index: 1;
 }
 
 .cta-inner h2 {
@@ -864,4 +874,5 @@ header.scrolled .nav-links a:hover {
     display: flex;
     gap: 16px;
     justify-content: center;
+    flex-wrap: wrap; 
 }
