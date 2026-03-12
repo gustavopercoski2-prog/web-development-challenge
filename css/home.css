@@ -102,22 +102,6 @@ header {
     color: var(--white);
 }
 
-.nav-links a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    bottom: -6px;
-    left: 0;
-    background-color: var(--highlight);
-    border-radius: 2px;
-    transition: width 0.3s ease;
-}
-
-.nav-links a:hover::after {
-    width: 100%;
-}
-
 header.scrolled {
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(20px);
@@ -151,13 +135,6 @@ header.scrolled .nav-links a:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45) !important;
     background: var(--accent) !important;
-}
-
-.container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 40px 20px;
-    margin: 0 auto;
 }
 
 #hero {
