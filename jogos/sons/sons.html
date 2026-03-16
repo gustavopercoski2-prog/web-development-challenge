@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo: Sons dos Animais</title>
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="sons.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="score-board">
+            <h2>Rodada <span id="rodada-atual">1</span>/10</h2>
+            <p>Pontos: <strong id="pontos-texto">0</strong></p>
+        </div>
+
+        <button id="btn-ouvir" class="btn-som-gigante" onclick="tocarSom()">
+            🔊
+        </button>
+        <p class="instrucao">Clique para ouvir e escolha o animal correto!</p>
+
+        <div id="cards-container" class="cards-grid">
+            </div>
+
+        <div id="tela-final" class="tela-final">
+            <h2>Fim de Jogo!</h2>
+            <p>Parabéns, você fez <strong id="pontos-finais">0</strong> pontos!</p>
+            <button class="btn-primary" onclick="reiniciarJogo()">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="sons.js"></script>
+</body>
+</html>
