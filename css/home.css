@@ -623,6 +623,21 @@ header.scrolled .nav-links a:hover {
     border-radius: 50%;
 }
 
+.game-badge.play {
+    background: var(--mint);
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+}
+
+.game-badge.play::before {
+    display: none;
+}
+
+.game-badge.play:hover {
+    background: var(--navy);
+}
+
 /*Section sobre/features*/
 #sobre {
     padding: 100px 5%;
