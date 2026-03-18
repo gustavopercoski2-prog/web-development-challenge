@@ -34,25 +34,25 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
 });
 
-// --- Abrir modal jogo de sons---
-function abrirJogoSons() {
-    const modal = document.getElementById('modal-sons');
-    const iframe = document.getElementById('iframe-sons');
-    iframe.src = '/jogos/sons/sons.html';
+// --- Abrir modal do jogo---
+function abrirJogo(caminho) {
+    const modal = document.getElementById('modal-jogo');
+    const iframe = document.getElementById('iframe-jogo');
+    iframe.src = caminho;
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
 }
 
-// --- Fechar modal jogo de sons---
-function fecharJogoSons(event) {
-    if (event && event.target !== document.getElementById('modal-sons')) return;
-    const modal = document.getElementById('modal-sons');
-    const iframe = document.getElementById('iframe-sons');
+// --- Fechar modal do jogo---
+function fecharJogo(event) {
+    if (event && event.target !== document.getElementById('modal-jogo')) return;
+    const modal = document.getElementById('modal-jogo');
+    const iframe = document.getElementById('iframe-jogo');
     modal.classList.remove('open');
     iframe.src = '';
     document.body.style.overflow = '';
 }
 
 document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') fecharJogoSons();
+    if (e.key === 'Escape') fecharJogo();
 });
