@@ -286,3 +286,22 @@ footer,
     background: #f1f5f9;
     border-color: #94a3b8;
 }
+
+@media (max-width: 600px) {
+    .expression-card {
+        width: 320px;
+        height: 200px;
+    }
+
+    .options-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+}
+
+@media (max-width: 380px) {
+    .selecao-grid {
+        grid-template-columns: 1fr;
+    }
+}
