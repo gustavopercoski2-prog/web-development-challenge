@@ -296,3 +296,16 @@ button:hover {
     padding: 10px;
     border-radius: 10px;
 }
+
+/*Responsividade*/
+@media (max-width: 768px) {
+    .main {
+        margin: 20px auto;
+        padding: 30px 24px;
+        width: 95%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
