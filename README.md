@@ -111,11 +111,13 @@ INCLUSION_PROJECT/
 
 ---
 
-## 👥 Equipe
+## 👥 Equipe e Créditos
 
-- **Gustavo da Silva Percoski** – Desenvolvedor  
-- **José Márcio Kruger Costantini** – Desenvolvedor  
-- **Maycon da Silva Vieira** – Desenvolvedor  
-- **Gabriel Martens da Silva** - Desenvolvedor
+| Nome | Contribuição | LinkedIn |
+|---|---|---|
+| Gustavo da Silva Percoski | Página Home | [LinkedIn](https://www.linkedin.com/in/gustavo-percoski/) |
+| José Márcio Kruger Costantini | Página de Feedbacks | [LinkedIn](https://www.linkedin.com/in/jos%C3%A9-costantini-b9083423b/) |
+| Maycon da Silva Vieira | Jogos de Matemática e Memória | [LinkedIn](https://www.linkedin.com/in/maycon-silva-b3b92530a/) |
+| Gabriel Martens da Silva | Jogos de Emoções e Sons | [LinkedIn](https://www.linkedin.com/in/gabriel-martens-s-2ab131322/) |
 
 📩 Para contato, utilize as Issues do repositório.
