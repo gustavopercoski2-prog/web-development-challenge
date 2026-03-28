@@ -1,68 +1,113 @@
-# 🧩 Incluir+ – Plataforma de Educação Inclusiva
+# 🌻 Incluir+ — Plataforma de Educação Inclusiva
 
-> **Projeto Acadêmico – Desenvolvimento Web | Unisinos**
-> Curso de Análise e Desenvolvimento de Sistemas
-> Data de entrega: 29/03/2026
+> **Projeto Acadêmico — Desenvolvimento Web | Unisinos**  
+> Curso de Análise e Desenvolvimento de Sistemas · Entrega: 29/03/2026
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
-
----
-
-## 📌 Sobre o Projeto
-
-O **Incluir+** é uma plataforma web gamificada desenvolvida com foco em educação inclusiva.
-
-A proposta do projeto é criar um ambiente digital acessível, acolhedor e intuitivo, voltado ao estímulo de habilidades cognitivas e socioemocionais de crianças atípicas (como TEA, TDAH e dificuldades de aprendizagem).
-
-Mais do que apenas aplicar conceitos técnicos de desenvolvimento web, o objetivo é demonstrar como a tecnologia pode ser utilizada como ferramenta de apoio no processo educacional, promovendo inclusão e aprendizado de forma leve, interativa e significativa.
-
-O projeto encontra-se atualmente em desenvolvimento, com foco na construção da base estrutural e definição das mecânicas interativas.
+![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Sobre o Projeto:
 
-* Desenvolver uma aplicação web com propósito social.
-* Criar um ambiente digital seguro, simples e acessível.
-* Aplicar boas práticas de estruturação, estilização e interatividade.
-* Demonstrar domínio das tecnologias fundamentais do desenvolvimento web.
+O **Incluir+** é uma plataforma web gamificada com foco em educação inclusiva, criada para apoiar o desenvolvimento cognitivo e socioemocional de crianças atípicas — com TEA, TDAH e dificuldades de aprendizagem.
 
----
+A ideia surgiu de uma inquietação simples: e se a tecnologia pudesse tornar o aprendizado mais acolhedor para quem aprende diferente? A partir disso, construímos um ambiente digital limpo, intuitivo e sem excessos visuais, onde cada jogo tem um propósito pedagógico claro e o ritmo é sempre da criança.
 
-## 🛠️ Tecnologias Utilizadas
-
-O projeto está sendo desenvolvido utilizando tecnologias web essenciais:
-
-* **HTML5** – Estruturação semântica e organização do conteúdo.
-* **CSS3** – Estilização, responsividade e construção de uma interface visual equilibrada.
-* **JavaScript (Vanilla)** – Implementação da lógica interativa da aplicação.
-
-Não há utilização de frameworks ou banco de dados, mantendo o foco no fortalecimento da base técnica.
+![Hero](assets/imagens/imagens_projeto/Hero_Incluir+.png)
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## Interface da Plataforma:
 
-1. Clone o repositório:
+A interface foi pensada para ser acessível tanto para as crianças quanto para pais e educadores. O design prioriza clareza, contraste adequado e ausência de elementos distrativos — tudo para reduzir a sobrecarga sensorial.
 
-   ```bash
-   git clone https://github.com/gustavopercoski2-prog/web-development-challenge.git
-   ```
-
-2. Acesse a pasta do projeto:
-
-   ```bash
-   cd web-development-challenge
-   ```
-
-3. Abra o arquivo `home.html` no navegador
-   ou utilize a extensão **Live Server** no VS Code para executar em ambiente local.
+![Jogos](assets/imagens/imagens_projeto/Jogos_Incluir+.png)
 
 ---
 
-## 📚 Natureza do Projeto
+## 🎮 Jogos:
 
-Este projeto possui finalidade exclusivamente acadêmica e foi desenvolvido como requisito da disciplina de Desenvolvimento Web do curso de Análise e Desenvolvimento de Sistemas da Unisinos.
+Cada jogo foca em um conjunto específico de habilidades:
+
+| Jogo | Habilidade trabalhada |
+|---|---|
+| 🧠 Jogo da Memória | Concentração, raciocínio e foco visual |
+| 🍎 Matemática Visual | Contagem e associação número-quantidade |
+| 🔊 Sons dos Animais | Percepção auditiva e associação |
+| 😊 Emoções | Reconhecimento facial e empatia |
+
+### Jogo da Memória (preview):
+![Memória](assets/imagens/imagens_projeto/Jogo_Memoria_Incluir+.png)
+
+### Matemática Visual (preview):
+![Matemática](assets/imagens/imagens_projeto/Jogo_Matematica_incluir+.png)
+
+### Sons dos Animais (preview):
+![Sons](assets/imagens/imagens_projeto/Jogo_Sons_Incluir+.png)
+
+### Emoções (preview):
+![Emoções](assets/imagens/imagens_projeto/Jogo_Emocoes_Incluir+.png)
+
+---
+
+## 📋 Feedbacks:
+
+A plataforma conta com uma página de feedbacks para que pais, educadores e usuários possam compartilhar suas experiências e sugestões — parte fundamental do processo de melhoria contínua do projeto.
+
+![Feedbacks](assets/imagens/imagens_projeto/Feedbacks_Incluir+.png)
+
+---
+
+## Seção Sobre o Projeto:
+
+![Sobre](assets/imagens/imagens_projeto/Sobre_Incluir+.png)
+
+---
+
+## 🛠️ Tecnologias Utilizadas:
+
+Vanilla mesmo — sem framework, sem banco de dados. O foco foi dominar a base antes de qualquer abstração.
+
+- **HTML5** — estruturação semântica do conteúdo
+- **CSS3** — sistema de design com variáveis, responsividade e animações via `IntersectionObserver`
+- **JavaScript** — lógica dos jogos, modal de navegação e efeitos de scroll
+
+---
+
+## 🚀 Como rodar localmente:
+```bash
+git clone https://github.com/gustavopercoski2-prog/web-development-challenge.git
+cd web-development-challenge
+```
+
+Abra `home.html` no navegador ou use o **Live Server** no VS Code.
+
+---
+
+## 📂 Estrutura do projeto:
+```
+INCLUSION_PROJECT/
+├── assets/
+│   ├── imagens/
+│   └── sons/
+├── css/
+│   ├── home.css
+│   └── feedbacks.css
+├── js/
+│   ├── home.js
+│   └── feedbacks.js
+├── jogos/
+│   ├── emocoes/
+│   ├── matematica/
+│   ├── memoria/
+│   └── sons/
+└── pages/
+    ├── home.html
+    └── feedbacks.html
+```
 
 ---
 
